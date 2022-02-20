@@ -64,9 +64,9 @@ uint64_t nextPrime(uint64_t value) {
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-  int n = 0;
-    int s = 0;
-    for (int i = 2; i < hbound; i++) {
+  uint64_t n = 0;
+    uint64_t s = 0;
+    for (uint64_t i = 2; i < hbound; i++) {
       n = i;
       int count = 0;
       int kor = sqrt(n);
